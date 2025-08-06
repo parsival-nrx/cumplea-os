@@ -67,7 +67,7 @@ width: 200px;
 height: 200px;
 background-color: rgb(255, 0, 0);
 transform: rotate(-45deg);
-box-shadow: -10px 10px 300px #e30000 ;
+ box-shadow: -100px 100px 2000px rgb(255, 0, 0);
  animation: animate .6s linear infinite;
 }
 @keyframes animate{
@@ -94,7 +94,7 @@ box-shadow: -10px 10px 300px #e30000 ;
     height: 200px;
     background-color: rgb(255, 0, 0);
     border-radius: 50%;
-    box-shadow: -10px 10px 200px rgb(201, 0, 0);
+    box-shadow: -100px 100px 2000px rgb(255, 0, 0);
 
     
 
@@ -111,7 +111,8 @@ width: 200px;
 height: 200px;
 background-color: rgb(255, 0, 0);
 border-radius: 50%;
-box-shadow: -10px 10px 150px rgb(201, 0, 0);
+  box-shadow: -100px 100px 2000px rgb(255, 0, 0);
+
 
 
 
@@ -132,6 +133,7 @@ box-shadow: -10px 10px 150px rgb(201, 0, 0);
 }
 
  
+
 
 
 
