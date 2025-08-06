@@ -33,14 +33,14 @@ body{
 
 
 .love{ color: #e30000;
-    font-size: 70px;
+    font-size: 15px;
     font-weight: 900px;
     position: absolute;
     box-shadow: -10px 10px 200px rgb(red, green, blue);
-    padding-left: 150px;
-    top: 100px;
+    padding-left: 35px;
+    top: 50px;
     box-shadow: -10px 10px 300px #000000 ;
-    animation:  .7s linear infinite;
+    animation: tito  1.1s linear infinite;
     
 }
 
@@ -66,7 +66,7 @@ body{
 position: relative;
 width: 200px;
 height: 200px;
-background-color: rgb(249, 3, 3);
+background-color: rgb(255, 3, 3);
 transform: rotate(-45deg);
 box-shadow: -10px 10px 300px #ffffff ;
  animation: animate .6s linear infinite;
@@ -133,4 +133,5 @@ box-shadow: -10px 10px 150px rgb(201, 0, 0);
         font-size: 1rem;
     }    
 }
+
  
