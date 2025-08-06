@@ -1,0 +1,136 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+
+
+
+
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+   
+
+
+
+}
+
+.button{color: #262222;
+    font-size: 100px;
+    position: absolute;
+    padding-left: 200px;
+    top: 800px;
+    
+
+
+
+}
+
+
+.love{ color: #e30000;
+    font-size: 70px;
+    font-weight: 900px;
+    position: absolute;
+    box-shadow: -10px 10px 200px rgb(red, green, blue);
+    padding-left: 150px;
+    top: 100px;
+    box-shadow: -10px 10px 300px #000000 ;
+    animation:  .7s linear infinite;
+    
+}
+
+@keyframes tito{
+  
+    0%{
+        transform: rotate(0deg) scale(1.2);
+
+    }
+      80%{
+      transform: rotate(0deg) scale(1.0); 
+    }
+     100%{
+        transform: rotate(0deg) scale(0.8);
+
+    }
+
+}
+
+
+.heart{
+    
+position: relative;
+width: 200px;
+height: 200px;
+background-color: rgb(249, 3, 3);
+transform: rotate(-45deg);
+box-shadow: -10px 10px 300px #ffffff ;
+ animation: animate .6s linear infinite;
+}
+@keyframes animate{
+   0%{
+      transform: rotate(-45deg ) scale(1.07);
+   }
+   80%{
+      transform: rotate(-45deg) scale(1.0); 
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.8);
+
+    }
+
+
+}
+
+
+.heart::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    box-shadow: -10px 10px 200px rgb(201, 0, 0);
+
+    
+
+
+
+
+}
+
+.heart::after{
+content: "";
+position: absolute;
+right: -50%;
+width: 200px;
+height: 200px;
+background-color: rgb(255, 0, 0);
+border-radius: 50%;
+box-shadow: -10px 10px 150px rgb(201, 0, 0);
+
+
+
+
+}
+ @media screen and (max-width:574px){
+     .greetings{
+        display: block;
+        font-size: 4rem;
+        font-weight: 800;
+        text-align: center;
+     }
+     .description{
+        font-size: 2rem;
+     }
+    
+    .button a{
+        font-size: 1rem;
+    }    
+}
+ 
